@@ -9,3 +9,6 @@ A simple and aesthetic meditation website with focus dot, timer, and full-screen
 
 ## Author
 Created by [Lucky](https://github.com/LuckyS25)
+
+## Live Demo
+[Try Dot Meditation] (https://luckys25.github.io/Dot-meditation/index.html)
