@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dot Meditation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <section class="container">
+      <h1>Dot Meditation</h1>
+      <p>Focus on the dot to calm your mind and improve concentration.</p>
+
+      <!-- Dot Preview -->
+      <div id="dotPreview"></div>
+
+      <!-- Dot Size Control -->
+      <label for="dotSize">Dot Size:</label>
+      <input type="range" id="dotSize" min="50" max="200" value="100">
+
+      <!-- Timer Settings -->
+      <div class="timer-settings">
+        <label for="hours">Hours:</label>
+        <input type="number" id="hours" min="0" max="5" value="0">
+
+        <label for="minutes">Minutes:</label>
+        <input type="number" id="minutes" min="0" max="59" value="5">
+
+        <label for="seconds">Seconds:</label>
+        <input type="number" id="seconds" min="0" max="59" value="0">
+      </div>
+
+      <!-- Start Button -->
+      <button onclick="startMeditation()">Start Meditation</button>
+    </section>
+  </main>
+
+  <!-- Meditation Screen -->
+  <div id="meditationScreen">
+    <div id="dot"></div>
+    <div id="pauseArea">
+      <button onclick="exitMeditation()">Pause</button>
+      <div id="timerBig">05:00</div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Dot Meditation. All Rights Reserved.</p>
+    <p>Created with ❤️ by  <a href="https://github.com/luckys25" target="_blank" class="dev-link">
+    Lucky</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
