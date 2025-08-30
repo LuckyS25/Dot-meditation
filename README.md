@@ -11,4 +11,4 @@ A simple and aesthetic meditation website with focus dot, timer, and full-screen
 Created by [Lucky](https://github.com/LuckyS25)
 
 ## Live Demo
-Try Dot Meditation <a href="https://luckys25.github.io/Dot-meditation/index.html">click here</a>
+Try Dot Meditation <a href="https://luckys25.github.io/Dot-meditation/index.html" target="_blank">click here</a>
